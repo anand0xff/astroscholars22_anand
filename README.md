@@ -22,19 +22,18 @@ you might have all the modules already loaded, with the lossible exception of im
 Now run the python script to create R, G, B fits files out of a sample jpg file...  this enables us to look at just the numerical values in a viewer like DS9.
 
 		(py39) bash$ python jpg_rgbfits.py 
-		(py39) bash$python jpg_rgbfits.py ../jpg_rgb/Gigi_in_Central_Park.jpg		
+		(py39) bash$python jpg_rgbfits.py ../jpg_rgb/Gigi_in_Central_Park.jpg. 
 		
-	
+		
+#### Monday's class
 
-- Examine RGB channels of jpg images, write separate FITS files for each channel. 
+- Light: wave description - wavefronts (iso-phase)
+- What is a radian
+- What determines [resolution](https://image1.slideserve.com/1553225/resolving-power-airy-disk-l.jpg)?
+- From [raytracing](https://image1.slideserve.com/3006816/thin-lenses-ray-tracing1-l.jpg) to image formation
+- [Thin lens equation](https://en.wikipedia.org/wiki/Thin_lens) in "Image Formation" related object distance, image distance, and lens focal length 
+- Larger pinholes produce larger [circle of confusion](https://en.wikipedia.org/wiki/Circle_of_confusion) blur
+- Smaller pinholes crate larger diffraction blur: the Point-Spread function is an [Airy pattern](https://en.wikipedia.org/wiki/Airy_disk).
 
-- On a **Unix** or **Windows** terminal command line, deconstruct a jpg image into R, G, B:
 
-		(astroconda) bash$ cd astroscholars22_anand/code/ImageExamples
-		(astroconda) bash$ python jpg_rgbfits.py anyfile.jpg
-
-	Pinhole camera predictions
-
-		(astroconda) bash$ cd astroscholars_anand/code
-		(astroconda) bash$ python photo_pinhole.py
 		
