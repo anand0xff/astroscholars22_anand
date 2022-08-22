@@ -1,0 +1,4 @@
+# astroscholars22_anand/whoami.md
+
+I tried a few different things before settling on developing new types of astronomical instruments.  In my early teens I wanted to be a biologist, until math and physics swept me off my feet.  I studied physics, and toyed with the idea of pro photography.  I even thought about switching to study Chinese!  As a kid I loved taking pictures.  That, together with the physics/math teamed up to get me into making the sharpest images I could for my job.
+I helped get ground-based adaptive optics coronagraphy started in my late thirties.  That's when you take out atmospheric blurring to sharpen up a telescope image a lot.  That took a couple of decades.  My passion for sharp images got me into developing how we line up James Webb mirrors after we unfolded them – that ran alongside my adaptive optics stuff for a decade or two.
