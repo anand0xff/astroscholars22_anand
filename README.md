@@ -25,15 +25,63 @@ Now run the python script to create R, G, B fits files out of a sample jpg file.
 		(py39) bash$python jpg_rgbfits.py ../jpg_rgb/Gigi_in_Central_Park.jpg. 
 		
 		
-#### Monday's class
+#### Monday's class (added reminders)
 
-- Light: wave description - wavefronts (iso-phase)
+- Light: wave description - wavefronts (constant phase -> wave speed)
+- Interference of wave amplitudes (principle of superposition)
+- Light interference almost always 'single photon' interference: think monochromatically, add intensities for polychromatic images.
 - What is a radian
 - What determines [resolution](https://image1.slideserve.com/1553225/resolving-power-airy-disk-l.jpg)?
 - From [raytracing](https://image1.slideserve.com/3006816/thin-lenses-ray-tracing1-l.jpg) to image formation
 - [Thin lens equation](https://en.wikipedia.org/wiki/Thin_lens) in "Image Formation" related object distance, image distance, and lens focal length 
-- Larger pinholes produce larger [circle of confusion](https://en.wikipedia.org/wiki/Circle_of_confusion) blur
-- Smaller pinholes crate larger diffraction blur: the Point-Spread function is an [Airy pattern](https://en.wikipedia.org/wiki/Airy_disk).
+- Larger pinholes produce larger [circle of confusion](https://en.wikipedia.org/wiki/Circle_of_confusion) blur - ray optics
+- Smaller pinholes crate larger diffraction blur: the Point-Spread function is an [Airy pattern](https://en.wikipedia.org/wiki/Airy_disk) - wave optics
+
+#### Tuesday's class - today
+
+Think of your class project - Tue Wed Thu remain
+
+* Topic(s)
+* Explorations (Tue Wed Thu) 
+* Sections/assignments (Tue Wed)
+* Results amd slide creationTue Wed Thu
+* Edting & refining
+* Presenting
+
+Experiments.  
+
+* Pinhole setup: Olympus E-PL5 (2012)
+* Olympus E-PL5, sensor 17.3mm x 13 mm, 4627 x 3479 eff. pixels
+* Pinholes 100, 200, 300, 400, 600 (?) um
+* Laser stable setup pointing safely at pinholes
+* Crop of full res images made with 5 pinholes (native pixel size)
+* Fits files of RGB "slices" of above
+* JPGs of full frame, but smaller resolution (rebinned)
+* R & B laser illumination of pinholes
+* Crop of full res images made with 5 pinholes (native pixel size)
+* Fits files of RGB "slices" of above
+* JPGs of full frame, but smaller resolution (rebinned)
+  
+Fraunhofer diffraction.  
+
+* [Airy pattern animation](https://en.wikipedia.org/wiki/Fraunhofer_diffraction).  
+* [Airy pattern derivation & equation](https://en.wikipedia.org/wiki/Fraunhofer_diffraction_equation#Circular_aperture)
+* Planetary orbits:  Earth 1 AU, Jupiter 12 AU. *(1 AU = 1.5e11 m)*. 
+* Telescope diameter 10 m, wavelength 1.0e-6 m = 1 micron   
+* Resolution = lambda/D = 1e-7 rad = 0.02 arcsec *(2e5 arcsec = 1 rad)*.  
+* At what stellar distance can we resolve an Earth and a Jupiter from its host star?	
 
 
-		
+#### Wednesday's class
+
+
+
+
+#### Thursday's class
+
+
+
+
+#### Friday's class
+
+	
