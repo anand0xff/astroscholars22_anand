@@ -64,13 +64,15 @@ Experiments.
   
 Fraunhofer diffraction.  
 
+* Fresnel to Fraunhofer (i.e. far field) transition: [Fresnel length](https://en.wikipedia.org/wiki/Fresnel_diffraction#/media/File:Comparison_Sommerfled-Fresnel-Fraunhofer.gif)
+* Lens in focus: same as far field (in angular image space)
 * [Airy pattern animation](https://en.wikipedia.org/wiki/Fraunhofer_diffraction).  
 * [Airy pattern derivation & equation](https://en.wikipedia.org/wiki/Fraunhofer_diffraction_equation#Circular_aperture)
 * PSFs and the [convolution integral](https://phiresky.github.io/convolution-demo/)
 * Planetary orbits:  Earth 1 AU, Jupiter 12 AU. *(1 AU = 1.5e11 m)*. 
 * Telescope diameter 10 m, wavelength 1.0e-6 m = 1 micron   
 * Resolution = lambda/D = 1e-7 rad = 0.02 arcsec *(2e5 arcsec = 1 rad)*.  
-* At what stellar distance can we resolve an Earth and a Jupiter from its host star?	
+* At what stellar distance can we resolve an Earth and a Jupiter from its host star?  (Use small angle approximationn - no need for sines & cosines)
 
 
 #### Wednesday's class
