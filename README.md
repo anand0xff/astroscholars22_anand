@@ -53,7 +53,7 @@ Experiments.
 * Pinhole setup: Olympus E-PL5 (2012)
 * Olympus E-PL5, sensor 17.3mm x 13 mm, 4627 x 3479 eff. pixels
 * Pinholes 100, 200, 300, 400, 600 (?) um
-* Laser stable setup pointing safely at pinholes
+* Laser stable setup to illuminate pinholes, take data
 * Crop of full res images made with 5 pinholes (native pixel size)
 * Fits files of RGB "slices" of above
 * JPGs of full frame, but smaller resolution (rebinned)
@@ -66,6 +66,7 @@ Fraunhofer diffraction.
 
 * [Airy pattern animation](https://en.wikipedia.org/wiki/Fraunhofer_diffraction).  
 * [Airy pattern derivation & equation](https://en.wikipedia.org/wiki/Fraunhofer_diffraction_equation#Circular_aperture)
+* PSFs and the [convolution integral](https://phiresky.github.io/convolution-demo/)
 * Planetary orbits:  Earth 1 AU, Jupiter 12 AU. *(1 AU = 1.5e11 m)*. 
 * Telescope diameter 10 m, wavelength 1.0e-6 m = 1 micron   
 * Resolution = lambda/D = 1e-7 rad = 0.02 arcsec *(2e5 arcsec = 1 rad)*.  
