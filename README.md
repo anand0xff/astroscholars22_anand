@@ -53,7 +53,7 @@ Think of your class project - Tue Wed Thu remain
 * Topic(s)
 * Explorations (Tue Wed Thu) 
 * Sections/assignments (Tue Wed)
-* Results amd slide creationTue Wed Thu
+* Results and slide creation Tue Wed Thu
 * Edting & refining
 * Presenting
 
@@ -65,11 +65,7 @@ Experiments.
 * Laser stable setup to illuminate pinholes, take data
 * Crop of full res images made with 5 pinholes (native pixel size)
 * Fits files of RGB "slices" of above
-* JPGs of full frame, but smaller resolution (rebinned)
 * R & B laser illumination of pinholes
-* Crop of full res images made with 5 pinholes (native pixel size)
-* Fits files of RGB "slices" of above
-* JPGs of full frame, but smaller resolution (rebinned)
   
 Fraunhofer diffraction.  
 
@@ -86,14 +82,31 @@ Fraunhofer diffraction.
 
 #### Wednesday's class
 
+* Topic(s)
+* Explorations (Start today) 
+* Results and slide creation Wed Thu
+
+ Discussion of topics/sub-topics (10 min at start, again mid-session)   
+ *	Already brought up: astronomical science interest/target.  
+ * Choice of telescope and wavelength
+ * suggestion: two possible images: present simulated telescope images to determine telescope diameter (convolution)
+
+ Use R & B laser illumination of pinholes and new fits files. to
+ determine diffraction dependece on wavelegth, with R, B light sources
+ and 100, 300, 400 um pinhole data.
 
 
 
 #### Thursday's class
 
+* Results and slide creation - finish today
+* Edting & refining
+* Presenting prep
 
 
 
 #### Friday's class
+
+* Presentation!
 
 	
