@@ -32,6 +32,8 @@ def fitsorder(jarr):
 def jpg2fits(jpgfn=None, jpgfig_inches = (4.0,5.0), show=True):
 
     pic = imageio.imread(jpgfn)  # shape (npixh, npixw, 3)
+    ifjpgfn.split[-1] == 'JPG':  # Adjust for writing out file names
+        jpgfn.replace('.JPG','jpg'))
 
     # create numpy array of numbers for R G B values
     img_array = np.asarray(pic)
@@ -88,8 +90,6 @@ def jpg2fits(jpgfn=None, jpgfig_inches = (4.0,5.0), show=True):
     # change the array's axes sequence to suit fits writing using T (transpose)
     rgb = "RGB"
     for c in range(3):
-        # lower the case of '.jpg'
-        jpgfn = jpgfn.replace('.JPG','jpg')
         fits.PrimaryHDU(data=img_array_fits[c,:,:]).writeto(
                                                  jpgfn.replace('.jpg',rgb[c]+'.fits'),
                                                  overwrite=True)
@@ -99,7 +99,6 @@ def jpg2fits(jpgfn=None, jpgfig_inches = (4.0,5.0), show=True):
     print("\tFigure is saved in", jpgfn.replace('jpg','pdf'))
 
     print("\tRGB data written as three separate fits files", 
-          jpgfn.replace('.jpg','[RGB].fits'))
     print("\tOpen the fits files with DS9 to view them and explore their contents.")
     if show: print("\nTo exit, close the image window")
     if show: plt.show()
@@ -122,4 +121,4 @@ if __name__ == "__main__":
     if len(sys.argv) < 2: sys.exit(\
     "\n\tExample use: \n\t$ python jpg_rgbfits.py ../jpg_rgb/Gigi_in_Central_Park.jpg\n")
     else: 
-        jpg2fits(jpgfn=sys.argv[1])
+        jpg2fits(jpgfn=sys.argv[1], show=False)
