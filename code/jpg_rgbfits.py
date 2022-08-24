@@ -32,8 +32,8 @@ def fitsorder(jarr):
 def jpg2fits(jpgfn=None, jpgfig_inches = (4.0,5.0), show=True):
 
     pic = imageio.imread(jpgfn)  # shape (npixh, npixw, 3)
-    ifjpgfn.split[-1] == 'JPG':  # Adjust for writing out file names
-        jpgfn.replace('.JPG','jpg'))
+    # Adjust for writing out file names
+    if jpgfn.split(':')[-1] == 'JPG': jpgfn.replace('.JPG','jpg')
 
     # create numpy array of numbers for R G B values
     img_array = np.asarray(pic)
@@ -98,7 +98,7 @@ def jpg2fits(jpgfn=None, jpgfig_inches = (4.0,5.0), show=True):
           "and shape", img_array.T.shape)
     print("\tFigure is saved in", jpgfn.replace('jpg','pdf'))
 
-    print("\tRGB data written as three separate fits files", 
+    print("\tRGB data written as three separate fits files with appended R, G, B .fits")
     print("\tOpen the fits files with DS9 to view them and explore their contents.")
     if show: print("\nTo exit, close the image window")
     if show: plt.show()
