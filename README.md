@@ -11,18 +11,27 @@ you might have all the modules already loaded, with the lossible exception of im
 
 **If needed**, install the all these, otherwise try to run the script in the next section
  
-		(base) bash$ conda create -n py39 python=3.9
-		(base) bash$ conda deactivate
-		(base) bash$ conda activate py39
-		(py39) bash$ conda install astropy
-		(py39) bash$ conda install scipy
-		(py39) bash$ conda install matplotlib
-		(py39) bash$ conda install imageio
+		If you don't have the 'as22' conda env on your machine:
+		'(base) bash$'   is your prompt  
+		conda create -n py39 python=3.9
+		conda deactivate
+		conda activate py39. # makes '(py39) bash$' your prompt
+		conda install astropy
+		conda install scipy
+		conda install matplotlib
+		
+		Otherwise only use this if you have activated 'as22' conda env:
+		conda install imageio
+		
+
 
 Now run the python script to create R, G, B fits files out of a sample jpg file...  this enables us to look at just the numerical values in a viewer like DS9.
 
-		(py39) bash$ python jpg_rgbfits.py 
-		(py39) bash$python jpg_rgbfits.py ../jpg_rgb/Gigi_in_Central_Park.jpg. 
+		python jpg_rgbfits.py  # gives you syntax used like this
+		python jpg_rgbfits.py ../jpg_rgb/Gigi_in_Central_Park.jpg
+		# change file name including path name to convert another file.
+		
+	 
 		
 		
 #### Monday's class (added reminders)
