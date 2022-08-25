@@ -28,7 +28,7 @@ Every point in the scene in front of a camera or telescope produces its own poin
 
 ##### My thoughts on what we've discussed: 
 
-* In the Day3 files the Point Spread Function (that Robel mentionedin his presentation yesterday!) - the image of a pint source through the optical system - is not as deeply exposed as in Day2's data, which burned out the core but showed the extended ringy structuref ar from the "(laser) star" we were "observing" with the simple system.
+* In the Day3 files the Point Spread Function (that Robel mentioned in his presentation yesterday!) - the image of a pint source through the optical system - is not as deeply exposed as in Day2's data, which burned out the core but showed the extended ringy structure far from the "(laser) star" we were "observing" with the simple system.
 * You calculated the angular size of the resolution - this angle is pretty much the smallest scale we can distinguish in an image we obtain with the optical system under consideration.  The core of the PSF (of a circular telescope) has a radius **1.22 lambda/D** (the Airy Disk radius). 
 * Think of an astronomical science case you might want to optimize your telescope for.  At what distance (**D\_target**) from us is your object, and what is the minimum physical feature length (L\_feature) you want to see? The feature could be a planet's distance from its host star, the size of a protoplanetary gas-and-dust disk, the length of a jet from an Active Galactic Nucleus (AGN) galaxy, ...
 * With that in mind, what angle (A) would that feature subtend to us observers at or near our home planet, the Earth?  If you've  put your target even at the nearest star, it's distance from the Sun is a good enough approximation!  (**A = L\_feature/D_target** radians).
@@ -50,7 +50,7 @@ You might have all the modules already loaded as part of your as22 set-up, with 
 
 I created this environment from scratch, the "base" anaconda environment...
 
-**If you don't have "as22" conda env ready**, install all these mpdules:
+**If you don't have "as22" conda env ready**, install all these modules:
  
 		'(base) bash$' is your prompt  
 		conda create -n py39 python=3.9
@@ -97,7 +97,7 @@ Think of your class project - Tue Wed Thu remain
 * Explorations (Tue Wed Thu) 
 * Sections/assignments (Tue Wed)
 * Results and slide creation Tue Wed Thu
-* Edting & refining
+* Editing & refining
 * Presenting
 
 Experiments.  
@@ -120,7 +120,7 @@ Fraunhofer diffraction.
 * Planetary orbits:  Earth 1 AU, Jupiter 12 AU. *(1 AU = 1.5e11 m)*. 
 * Telescope diameter 10 m, wavelength 1.0e-6 m = 1 micron   
 * Resolution = lambda/D = 1e-7 rad = 0.02 arcsec *(2e5 arcsec = 1 rad)*.  
-* At what stellar distance can we resolve an Earth and a Jupiter from its host star?  (Use small angle approximationn - no need for sines & cosines)
+* At what stellar distance can we resolve an Earth and a Jupiter from its host star?  (Use small angle approximation - no need for sines & cosines)
 
 
 #### Wednesday's class
@@ -135,7 +135,7 @@ Fraunhofer diffraction.
  * suggestion: two possible images: present simulated telescope images to determine telescope diameter (convolution)
 
  Use R & B laser illumination of pinholes and new fits files. to
- determine diffraction dependece on wavelegth, with R, B light sources
+ determine diffraction dependence on wavelength, with R, B light sources
  and 100, 300, 400 um pinhole data.
 
 
