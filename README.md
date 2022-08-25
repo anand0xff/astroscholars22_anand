@@ -6,7 +6,7 @@ Material to support Anand's "Telescopes and Optic" lab.  Assumes astroconda is t
 
 
 
-#### TODAY: Thursday's class
+## TODAY: Thursday's class
 
 Our session today is two hours, 2:50p - 4:50p.
 
