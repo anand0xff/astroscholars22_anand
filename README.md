@@ -14,7 +14,7 @@ Content definition and slide creation/definition, with rough first draft by the 
 
 I'm also available tomorrow am if you want. 
 
-#####What have we done?
+##### What have we done?
 
 As a starter we looked at describing a wavefront mathematically, and its phase.  And also at what interference of waves is, including lack of interaction between different photons.  If you want a slide showing this, we could take a jpg image with the red & blue laser pinhole images landing on almost the same spot in the camera.  
 
@@ -26,7 +26,7 @@ We also worked on quantifying resolution by looking at the response of our optic
 
 Every point in the scene in front of a camera or telescope produces its own point spread function response at the appropriate location on your detector.  These individual PSF **intensities** all add to crate the "picture" you get when you press the shutter button.
 
-#####My thoughts on what we've discussed: 
+##### My thoughts on what we've discussed: 
 
 * In the Day3 files the Point Spread Function (that Robel mentionedin his presentation yesterday!) - the image of a pint source through the optical system - is not as deeply exposed as in Day2's data, which burned out the core but showed the extended ringy structuref ar from the "(laser) star" we were "observing" with the simple system.
 * You calculated the angular size of the resolution - this angle is pretty much the smallest scale we can distinguish in an image we obtain with the optical system under consideration.  The core of the PSF (of a circular telescope) has a radius **1.22 lambda/D** (the Airy Disk radius). 
@@ -42,7 +42,7 @@ Once you know how large a telescope you want, for extra fun you could estimate a
 
 
 ---
-###Startup
+### Startup
 **Navigate to** the github AS22 for the section: [repo](https://github.com/anand0xff/astroscholars22_anand)   
 **Download** a zip on Windows or clone from this location on UNIX), and expand it.   
 
