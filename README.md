@@ -1,12 +1,76 @@
-# astroscholars22_anand
+# astroscholars24_anand
 Optics, Lenses, and Telescopes 2022 JHU.  
 Advisor: Dr. Anand Sivaramakrishnan   (Dr. Anand works too!)
 
-Material to support Anand's "Telescopes and Optic" lab.  Assumes astroconda is the python environment being used.  
+Material to support Anand's "Telescopes and Optic" lab.  Assumes anaconda is the python environment being used.  
+
+Day by day I'll update the next class.  This file's future classes are develoiped for the 2022 class.  You might steer us differently...
 
 
+	
+#### Monday's class (added reminders)
 
-## TODAY: Thursday's class
+- Light: wave description - wavefronts (constant phase -> wave speed)
+- Interference of wave amplitudes (principle of superposition)
+- Light interference almost always 'single photon' interference: think monochromatically, add intensities for polychromatic images.
+- What is a radian
+- What determines [resolution](https://image1.slideserve.com/1553225/resolving-power-airy-disk-l.jpg)?
+- From [raytracing](https://image1.slideserve.com/3006816/thin-lenses-ray-tracing1-l.jpg) to image formation
+- 100um to 1/16th inch pinhole imaging sequence (day 1 data, jpg_rgb/Day1_pinholes
+- [Thin lens equation](https://en.wikipedia.org/wiki/Thin_lens) in "Image Formation" related object distance, image distance, and lens focal length 
+- Larger pinholes produce larger [circle of confusion](https://en.wikipedia.org/wiki/Circle_of_confusion) blur - ray optics
+- Smaller pinholes crate larger diffraction blur: the Point-Spread function is an [Airy pattern](https://en.wikipedia.org/wiki/Airy_disk) - wave optics
+
+#### Tuesday's class
+
+Think of your class project - Tue Wed Thu remain
+
+* Topic(s)
+* Explorations (Tue Wed Thu) 
+* Sections/assignments (Tue Wed)
+* Results and slide creation Tue Wed Thu
+* Editing & refining
+* Presenting
+
+Experiments.  
+
+* Pinhole setup: Olympus E-PL5 (2012)
+* Olympus E-PL5, sensor 17.3mm x 13 mm, 4627 x 3479 eff. pixels
+* Pinholes 100, 200, 300, 400, 600 (?) um
+* Laser stable setup to illuminate pinholes, take data
+* Crop of full res images made with 5 pinholes (native pixel size)
+* Fits files of RGB "slices" of above
+* R & B laser illumination of pinholes
+  
+Fraunhofer diffraction.  
+
+* Fresnel to Fraunhofer (i.e. far field) transition: [Fresnel length](https://en.wikipedia.org/wiki/Fresnel_diffraction#/media/File:Comparison_Sommerfled-Fresnel-Fraunhofer.gif)
+* Lens in focus: same as far field (in angular image space)
+* [Airy pattern animation](https://en.wikipedia.org/wiki/Fraunhofer_diffraction).  
+* [Airy pattern derivation & equation](https://en.wikipedia.org/wiki/Fraunhofer_diffraction_equation#Circular_aperture)
+* PSFs and the [convolution integral](https://phiresky.github.io/convolution-demo/)
+* Planetary orbits:  Earth 1 AU, Jupiter 12 AU. *(1 AU = 1.5e11 m)*. 
+* Telescope diameter 10 m, wavelength 1.0e-6 m = 1 micron   
+* Resolution = lambda/D = 1e-7 rad = 0.02 arcsec *(2e5 arcsec = 1 rad)*.  
+* At what stellar distance can we resolve an Earth and a Jupiter from its host star?  (Use small angle approximation - no need for sines & cosines)
+
+
+#### Wednesday's class
+
+* Topic(s)
+* Explorations (Start today) 
+* Results and slide creation Wed Thu
+
+ Discussion of topics/sub-topics (10 min at start, again mid-session)   
+ *	Already brought up: astronomical science interest/target.  
+ * Choice of telescope and wavelength
+ * suggestion: two possible images: present simulated telescope images to determine telescope diameter (convolution)
+
+ Use R & B laser illumination of pinholes and new fits files. to
+ determine diffraction dependence on wavelength, with R, B light sources
+ and 100, 300, 400 um pinhole data.
+
+## Thursday's class
 
 Our session today is two hours, 2:50p - 4:50p.
 
@@ -76,67 +140,7 @@ Now run the python script to create R, G, B fits files out of a sample jpg file.
 		
 ---
 		
-		
-#### Monday's class (added reminders)
-
-- Light: wave description - wavefronts (constant phase -> wave speed)
-- Interference of wave amplitudes (principle of superposition)
-- Light interference almost always 'single photon' interference: think monochromatically, add intensities for polychromatic images.
-- What is a radian
-- What determines [resolution](https://image1.slideserve.com/1553225/resolving-power-airy-disk-l.jpg)?
-- From [raytracing](https://image1.slideserve.com/3006816/thin-lenses-ray-tracing1-l.jpg) to image formation
-- [Thin lens equation](https://en.wikipedia.org/wiki/Thin_lens) in "Image Formation" related object distance, image distance, and lens focal length 
-- Larger pinholes produce larger [circle of confusion](https://en.wikipedia.org/wiki/Circle_of_confusion) blur - ray optics
-- Smaller pinholes crate larger diffraction blur: the Point-Spread function is an [Airy pattern](https://en.wikipedia.org/wiki/Airy_disk) - wave optics
-
-#### Tuesday's class - today
-
-Think of your class project - Tue Wed Thu remain
-
-* Topic(s)
-* Explorations (Tue Wed Thu) 
-* Sections/assignments (Tue Wed)
-* Results and slide creation Tue Wed Thu
-* Editing & refining
-* Presenting
-
-Experiments.  
-
-* Pinhole setup: Olympus E-PL5 (2012)
-* Olympus E-PL5, sensor 17.3mm x 13 mm, 4627 x 3479 eff. pixels
-* Pinholes 100, 200, 300, 400, 600 (?) um
-* Laser stable setup to illuminate pinholes, take data
-* Crop of full res images made with 5 pinholes (native pixel size)
-* Fits files of RGB "slices" of above
-* R & B laser illumination of pinholes
-  
-Fraunhofer diffraction.  
-
-* Fresnel to Fraunhofer (i.e. far field) transition: [Fresnel length](https://en.wikipedia.org/wiki/Fresnel_diffraction#/media/File:Comparison_Sommerfled-Fresnel-Fraunhofer.gif)
-* Lens in focus: same as far field (in angular image space)
-* [Airy pattern animation](https://en.wikipedia.org/wiki/Fraunhofer_diffraction).  
-* [Airy pattern derivation & equation](https://en.wikipedia.org/wiki/Fraunhofer_diffraction_equation#Circular_aperture)
-* PSFs and the [convolution integral](https://phiresky.github.io/convolution-demo/)
-* Planetary orbits:  Earth 1 AU, Jupiter 12 AU. *(1 AU = 1.5e11 m)*. 
-* Telescope diameter 10 m, wavelength 1.0e-6 m = 1 micron   
-* Resolution = lambda/D = 1e-7 rad = 0.02 arcsec *(2e5 arcsec = 1 rad)*.  
-* At what stellar distance can we resolve an Earth and a Jupiter from its host star?  (Use small angle approximation - no need for sines & cosines)
-
-
-#### Wednesday's class
-
-* Topic(s)
-* Explorations (Start today) 
-* Results and slide creation Wed Thu
-
- Discussion of topics/sub-topics (10 min at start, again mid-session)   
- *	Already brought up: astronomical science interest/target.  
- * Choice of telescope and wavelength
- * suggestion: two possible images: present simulated telescope images to determine telescope diameter (convolution)
-
- Use R & B laser illumination of pinholes and new fits files. to
- determine diffraction dependence on wavelength, with R, B light sources
- and 100, 300, 400 um pinhole data.
+	
 
 
 
