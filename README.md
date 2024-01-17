@@ -23,38 +23,41 @@ Day by day I'll update the next class.  This file's future classes are develoipe
 
 #### Tuesday's class
 
-Think of your class project - Tue Wed Thu remain
+Class project - Tue Wed Thu remain
 
-* Topic(s)
-* Explorations (Tue Wed Thu) 
+* Define first 
+* Explorations (Wed Thu) 
 * Sections/assignments (Tue Wed)
-* Results and slide creation Tue Wed Thu
-* Editing & refining
-* Presenting
+* Results and slide creation Wed Thu, refine Fri
+* Presenting Fri
 
-Experiments.  
 
-* Pinhole setup: Olympus E-PL5 (2012)
-* Olympus E-PL5, sensor 17.3mm x 13 mm, 4627 x 3479 eff. pixels
-* Pinholes 100, 200, 300, 400, 600 (?) um
-* Laser stable setup to illuminate pinholes, take data
+
+Existing data in this repo:  
+
+* Pinholes 100, 200, 300, 400 um, 1/16th inch
 * Crop of full res images made with 5 pinholes (native pixel size)
 * Fits files of RGB "slices" of above
 * R & B laser illumination of pinholes
   
-Fraunhofer diffraction.  
+  
+Class topics  
 
-* Fresnel to Fraunhofer (i.e. far field) transition: [Fresnel length](https://en.wikipedia.org/wiki/Fresnel_diffraction#/media/File:Comparison_Sommerfled-Fresnel-Fraunhofer.gif)
-* Lens in focus: same as far field (in angular image space)
-* [Airy pattern animation](https://en.wikipedia.org/wiki/Fraunhofer_diffraction).  
-* [Airy pattern derivation & equation](https://en.wikipedia.org/wiki/Fraunhofer_diffraction_equation#Circular_aperture)
-* PSFs and the [convolution integral](https://phiresky.github.io/convolution-demo/)
-* Planetary orbits:  Earth 1 AU, Jupiter 12 AU. *(1 AU = 1.5e11 m)*. 
-* Telescope diameter 10 m, wavelength 1.0e-6 m = 1 micron   
-* Resolution = lambda/D = 1e-7 rad = 0.02 arcsec *(2e5 arcsec = 1 rad)*.  
-* At what stellar distance can we resolve an Earth and a Jupiter from its host star?  (Use small angle approximation - no need for sines & cosines)
+* From pupil to focus - and beyond movie (Emiel Por) [here](https://docs.hcipy.org/0.5.1/tutorials/NearFarFieldDiffraction/NearFarFieldDiffraction.html#)
+* Lensmaker's equation from [wikipedia](https://en.wikipedia.org/wiki/Focal_length)
+* [Refraction](https://en.wikipedia.org/wiki/Refraction) of light at a boundary (nice animation)
+* In-focus image properties: [pixel or plate scale](https://github.com/anand0xff/astroscholars22_anand/blob/main/PLSCL.pdf), beam focal ratio (f-number) [angular resolution](https://en.wikipedia.org/wiki/Angular_resolution) "lambda/D"
+* (optional) Far-field or in-focus Point Source Function using Fourier transforms, and the [Airy pattern derivation & equation](https://en.wikipedia.org/wiki/Fraunhofer_diffraction_equation#Circular_aperture)  
+* PSFs and the [convolution integral](https://phiresky.github.io/convolution-demo/) - use Square (object), Gaussian (PSF) to see telescope image  
 
+Miscellaneous
 
+* Earth 1 AU, Jupiter 12 AU. *(1 AU = 1.5e11 m)*. Earth diameter = ? 
+* JWST diameter 10 m, Hubble diameter 2.4 m, wavelength 1.0e-6 m = 1 micron.  Angular resolution? Detector pixels?   
+* Resolution = lambda/D *(2e5 arcsec = 1 rad)*.  
+
+--
+--
 #### Wednesday's class
 
 * Topic(s)
@@ -82,9 +85,10 @@ I'm also available tomorrow am if you want.
 
 As a starter we looked at describing a **wavefront** mathematically, and its **phase**.  And also at what interference of waves is, including lack of interaction between different photons.  If you want a slide showing this, we could take a jpg image with the red & blue laser pinhole images landing on almost the same spot in the camera.  
 
-The main work we did was to truly understand the resolution of an optical system.  And why lenses or mirrors improved early pinhole imaging in a bedroom (camera in Italian).  You called out a sweet spot of pinhole sharpness - that's a cool result!  That transition involved the Fresnel length, given the pinhole or aperture size, distance from pinhole, and the light's wavelength.  Lenses near focus are equivalent to **far field** diffraction.  [Slide 13](http://nicadd.niu.edu/~piot/phys_630/Lesson7.pdf) shows the near-aperture to In Focus progression of the light pattern (\N_\f in this slide is the Fresnel length / how far the screen is from the aperture - 0.1 is 10 Fresnel lengths away).
+The main work we did was to truly understand the resolution of an optical system.  And why lenses or mirrors improved early pinhole imaging in a bedroom (camera in Italian).  You called out a sweet spot of pinhole sharpness - that's a cool result!  That transition involved the Fresnel length, given the pinhole or aperture size, distance from pinhole, and the light's wavelength.  Lenses near focus are equivalent to **far field** diffraction.  [Slide 13](http://nicadd.niu.edu/~piot/phys_630/Lesson7.pdf) shows the near-aperture to In Focus progression of the light pattern (\N_\f in this slide is the Fresnel length / how far the screen is from the aperture - 0.1 is 10 Fresnel lengths away).  
+####Ojo: the above Slide 13  might be interesting to you
  
-How does a lens work to create a focus?  We did not cover that in detail.  It tilts incident parallel bundles of light rays from a distant point source so they come together at one point, and delays each ray's phase so they have the same phase when they reach this focal point.  The delay is carefully matched to the "prism angle" of that slice of the lens, which imparts the tilt. Light travels slower through glass than air, so the thick middle of a convex lens delays light more than the thinner edge of the lens. Constructive interference happens for all the light paths reaching the focal point, so **brightness is high** there.  That spot is an in-focus PSF of the lens, created by the point source.
+How does a lens work to create a focus?  We did not cover that in detail.  It tilts incident parallel bundles of light rays from a distant point source so they come together at one point, and delays each ray's phase so they have the same phase when they reach this focal point.  The delay is carefully matched to the "prism angle" of that slice of the lens, which imparts the tilt. Light travels slower through glass than air, so the thick middle of a convex lens delays light more than the thinner edge of the lens. Constructive interference happens for all the light paths reaching the focal point, so brightness is high** there.  That spot is an in-focus PSF of the lens, created by the point source.
 
 We also worked on quantifying resolution by looking at the response of our optics to illumination by a point source.
 
