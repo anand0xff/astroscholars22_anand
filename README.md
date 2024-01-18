@@ -87,24 +87,15 @@ You should write the formulae out and give results numerically to each step as y
 
 Let's see if we get there.  
 
-#### Thursday's class
-Results and slide creation
 
-Our session today is two hours, 2:50p - 4:50p.
 
-Content definition and slide creation/definition, with rough first draft by the session end. 
+---
+---
 
---
---
-
-2022 material for future reference if you are interested:
-
-##### What have we done?
 
 [Slide 13](http://nicadd.niu.edu/~piot/phys_630/Lesson7.pdf)  Ojo: Slide 13  might be interesting to you
  
-		
----
+--
 		
 	
 
